@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build docker file
-    - cp: / /var/www/html
+    - run cp: / /var/www/html
       
     
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
